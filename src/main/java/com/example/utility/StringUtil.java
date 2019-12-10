@@ -1,11 +1,14 @@
 package com.example.utility;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @author lib
  * @version V1.0
  * @description TODO:
  * @date 2019/12/10 11:48
  */
+@Component
 public class StringUtil {
     /**
      * 将数组转为字符串中间,号隔开数据转换为字符串

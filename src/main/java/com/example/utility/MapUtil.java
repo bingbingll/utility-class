@@ -3,6 +3,7 @@ package com.example.utility;
 import com.sun.istack.internal.NotNull;
 import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.cglib.beans.BeanMap;
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import java.io.ByteArrayInputStream;
@@ -20,6 +21,7 @@ import java.util.Set;
 
 
 @SuppressWarnings("all")
+@Component
 public class MapUtil {
     /**
      * TODO: map key大写字母转换为小写
